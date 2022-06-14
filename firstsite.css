@@ -1,0 +1,17 @@
+body {
+    background-color: orange;
+    color: black;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+}
+
+ol {
+    display: table;
+    margin: 0 auto;
+}
