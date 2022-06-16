@@ -56,3 +56,10 @@ color: aqua;
 a:active{
 color: gold;
 }
+
+img {
+    border-color: aliceblue;
+    border-style: double;
+    border-radius: 1em;
+    border-width: 0.5em;
+}
