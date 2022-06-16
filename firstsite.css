@@ -4,6 +4,7 @@ body {
     text-align: center;
     display: table;
     margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 ul {
@@ -14,4 +15,44 @@ ul {
 ol {
     display: table;
     margin: 0 auto;
+}
+
+#message {
+    height: 200px;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 40px;
+}
+
+button {
+    background: none;
+    color: #0878e7;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    border-radius: 1.8em;
+    transition: all 0.25s;
+}
+
+button:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+a:link{
+color: blue;
+}
+a:visited{
+color: yellow;
+}
+a:hover{
+color: aqua;
+}
+a:active{
+color: gold;
 }
